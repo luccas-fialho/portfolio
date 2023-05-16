@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url(./cabecalho.css);
+@import url(./avatar.css);
+@import url(./sobre-mim.css);
+@import url(./tecnologias.css);
+@import url(./projetos.css);
+
+:root {
+  --preto: #000;
+  --gradiente: linear-gradient( 108.7deg,  rgba(221,22,224,1) 11%, rgba(111,22,190,1) 88.2% );
+  --roxo: #8F43EE;
+  --branco: #FFF;
+  --fonte-padrao: 'Roboto', sans-serif;
+}
+
+body {
+  background-image: var(--gradiente);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: var(--branco);
+  font-family: var(--fonte-padrao);
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: var(--branco);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em 2em 0 2em;
+  font-size: 18px;
+}
+
+.titulo {
+  text-align: center;
+  font-size: 50px;
+  margin: 1em 0;
+  font-weight: bold;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .links a {
+    font-size: 1.5rem;
+    margin: 5px;
+  }
+}

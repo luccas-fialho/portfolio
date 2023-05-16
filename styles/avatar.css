@@ -1,0 +1,57 @@
+.box-apresentacao {
+  height: 93vh;
+}
+
+.card {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  margin-top: 5em;
+}
+
+.card .flip {
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+}
+
+.card:hover .flip {
+  transform: rotateY(180deg);
+}
+
+.front-card, .back-card {
+ position: absolute;
+  backface-visibility: hidden;
+}
+
+.back-card {
+  transform: rotateY(180deg);
+}
+
+.front-card img, .back-card img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  background-color: var(--roxo);
+}
+
+.nome {
+  display: flex;
+  margin-top: 1em;
+  justify-content: center;
+  text-align: center;
+  font-size: 80px;
+}
+
+.container-nome {
+  padding: 0 1em 7em 1em;
+  height: 15em;
+}
+
+.container-nome h1 {
+  font-weight: bold;
+}
+
+.container-nome p {
+  text-align: center;
+  font-size: 25px;
+}

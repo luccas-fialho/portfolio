@@ -1,0 +1,38 @@
+#nome {
+  position: relative;
+}
+
+#nome::after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 95%;
+  border-right: 2px solid var(--branco);
+  right: -5px;
+  animation: blink 1s infinite ease;
+}
+
+.cabecalho {
+  background-image: var(--gradiente);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cabecalho p {
+  font-size: 30px;
+  margin-left: 1em;
+  font-weight: bold;
+}
+
+.cabecalho__links {
+  padding: 0.5em;
+}
+
+.cabecalho__links a {
+  margin: 5px;
+  font-size: 3.5rem;
+  text-decoration: none;
+  color: var(--branco);
+  padding: 10px;
+}

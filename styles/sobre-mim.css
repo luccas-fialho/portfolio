@@ -1,0 +1,13 @@
+.container-sobre-mim {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sobre-mim {
+  font-size: 25px;
+  padding: 0 2em 0 2em;
+  text-align: center;
+  line-height: 1.3em;
+}

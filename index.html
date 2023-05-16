@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles/reset.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+  <link rel="stylesheet" href="/styles/style.css">
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <header class="cabecalho">
+    <p id="nome"></p>
+    <nav class="cabecalho__links">
+      <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+      <a href=""><i class="fa fa-github" aria-hidden="true"></i></a>
+      <!-- <a href="">Projetos</a>
+      <a href="">Contato</a> -->
+    </nav>
+  </header>
+  <main>
+    <section class="box-apresentacao">
+      <section class="container">
+        <div class="card">
+          <div class="flip">
+            <div class="front-card">
+              <img src="./img/8bitpix.png" alt="">
+            </div>
+            <div class="back-card">
+              <img src="./img/foto_eu.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container-nome">
+        <h1 class="nome"></h1>
+        <p id="cargo"></p>
+      </section>
+    </section>
+    <section class="container-sobre-mim">
+      <p class="titulo">Sobre mim</p>
+      <p class="sobre-mim">
+        Olá! Meu nome é Luccas, tenho 22 anos e estou a procura da minha primeira oportunidade no meio dev. Atualmente
+        cursando Engenharia da Computação na UTFPR. Tenho muita vontade de aprender e evoluir, tanto profissionalmente
+        quanto como pessoa.
+      </p>
+    </section>
+    <section class="container-projetos">
+      <p class="titulo">Projetos</p>
+      <div class="projetos">
+        <div class="projeto">
+          <a href="https://jogo-numero-secreto-mu-one.vercel.app/">
+            <p class="projeto__titulo">Número Secreto</p>
+          </a>
+
+          <img src="./img/projeto_1.png" alt="" class="projeto__img">
+          <p class="projeto__descricao">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates natus fugit ducimus iusto fugiat magnam
+            eaque ex neque provident perspiciatis voluptatibus quasi quod expedita fuga sed, magni iste recusandae
+            dolorum!
+          </p>
+          <p class="projeto__tecnologias">
+            <i class="devicon-html5-plain-wordmark colored"></i>
+            <i class="devicon-css3-plain-wordmark colored"></i>
+            <i class="devicon-javascript-plain colored"></i>
+            <a href="https://github.com/luccas-fialho/jogo-numero-secreto"><i class="fa fa-github"
+                aria-hidden="true"></i></a>
+          </p>
+        </div>
+        <div class="projeto">
+          <p class="projeto__titulo">Robotron 2000</p>
+          <img src="./img/projeto_2.png" alt="" class="projeto__img">
+          <p class="projeto__descricao">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates natus fugit ducimus iusto fugiat magnam
+            eaque ex neque provident perspiciatis voluptatibus quasi quod expedita fuga sed, magni iste recusandae
+            dolorum!
+          </p>
+          <p class="projeto__tecnologias">
+            <i class="devicon-html5-plain-wordmark colored"></i>
+            <i class="devicon-css3-plain-wordmark colored"></i>
+            <i class="devicon-javascript-plain colored"></i>
+            <a href="https://github.com/luccas-fialho/robotron2000"><i class="fa fa-github" aria-hidden="true"></i></a>
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="container-tecnologias">
+      <p class="titulo">Tecnologias</p>
+      <div class="hardskills__icons">
+        <i class="devicon-html5-plain colored"></i>
+        <i class="devicon-css3-plain colored"></i>
+        <i class="devicon-javascript-plain colored"></i>
+        <i class="devicon-github-original"></i>
+      </div>
+    </section>
+  </main>
+  <footer>.</footer>
+  <script src="/script/main.js"></script>
+</body>
+
+</html>
