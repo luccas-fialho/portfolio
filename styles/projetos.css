@@ -11,10 +11,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 1em;
+  margin: 0 1em 1em 1em;
   padding: 1em;
   border: 2px solid white;
-  width: 100%px;
+  background: #56155f;
+  border-radius: 10px;
 }
 
 .projeto__titulo {
@@ -37,8 +38,30 @@
 .projeto__tecnologias {
   display: flex;
   align-items: center;
-  padding-top: 1em;
+  padding-top: 0.5em;
   font-size: 3em;
+}
+
+.projeto__repo {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: var(--roxo);
+  border-radius: 10px;
+  font-weight: bold;
+  border: 1px solid var(--roxo);
+  margin-top: 2em;
+}
+
+.projeto__repo:hover {
+  background-color: blueviolet;
 }
 
 .projeto__tecnologias i{
