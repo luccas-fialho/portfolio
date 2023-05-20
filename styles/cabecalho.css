@@ -20,19 +20,19 @@
 }
 
 .cabecalho p {
-  font-size: 30px;
-  margin-left: 1em;
+  font-size: 28px;
+  margin-left: 0.5em;
   font-weight: bold;
 }
 
 .cabecalho__links {
-  padding: 0.5em;
+  padding: 1em 0;
 }
 
 .cabecalho__links a {
-  margin: 5px;
+  margin: 10px;
   font-size: 3.5rem;
   text-decoration: none;
   color: var(--branco);
-  padding: 10px;
+
 }

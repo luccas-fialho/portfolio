@@ -54,4 +54,5 @@
 .container-nome p {
   text-align: center;
   font-size: 25px;
+  font-family: var(--fonte-nome);
 }
