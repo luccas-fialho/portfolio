@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url(./cabecalho.css);
 @import url(./avatar.css);
 @import url(./sobre-mim.css);
@@ -9,12 +8,11 @@
 
 :root {
   --preto: #000;
-  --gradiente: linear-gradient( 108.7deg,  rgba(221,22,224,1) 11%, rgba(111,22,190,1) 88.2% );
+  --gradiente: linear-gradient(108.7deg, rgba(221, 22, 224, 1) 11%, rgba(111, 22, 190, 1) 88.2%);
   --roxo: #8F43EE;
   --branco: #FFF;
-  --fonte-padrao: 'Roboto', sans-serif;
-  --fonte-nome: 'Luckiest Guy', cursive, sans-serif;
-  --fonte-teste: 'Staatliches', cursive, sans-serif;
+  --cinza: #BBB;
+  --fonte-padrao: 'Open Sans', sans-serif;
 }
 
 body {

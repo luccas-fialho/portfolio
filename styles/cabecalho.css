@@ -34,5 +34,10 @@
   font-size: 3.5rem;
   text-decoration: none;
   color: var(--branco);
+}
 
+@media screen and (min-width: 1024px) {
+  .cabecalho__links a:hover {
+    color: var(--cinza);
+  }
 }

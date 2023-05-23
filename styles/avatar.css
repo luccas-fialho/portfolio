@@ -18,8 +18,9 @@
   transform: rotateY(180deg);
 }
 
-.front-card, .back-card {
- position: absolute;
+.front-card,
+.back-card {
+  position: absolute;
   backface-visibility: hidden;
 }
 
@@ -27,7 +28,8 @@
   transform: rotateY(180deg);
 }
 
-.front-card img, .back-card img {
+.front-card img,
+.back-card img {
   height: 200px;
   width: 200px;
   border-radius: 100%;
@@ -54,5 +56,4 @@
 .container-nome p {
   text-align: center;
   font-size: 25px;
-  font-family: var(--fonte-nome);
 }

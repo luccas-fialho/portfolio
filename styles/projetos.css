@@ -6,6 +6,10 @@
   padding: 0;
 }
 
+.projetos {
+  padding: 1em;
+}
+
 .projeto {
   display: flex;
   flex-direction: column;
@@ -20,7 +24,7 @@
 
 .projeto__titulo {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 27px;
   padding-bottom: 0.5em;
 }
 
@@ -64,6 +68,44 @@
   background-color: blueviolet;
 }
 
-.projeto__tecnologias i{
+.projeto__tecnologias i {
   padding: 0 0.2em;
+}
+
+@media screen and (min-width: 1024px) {
+  .projetos {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1em;
+    padding: 2.5em;
+  }
+
+  .projeto {
+    text-align: center;
+  }
+
+  .projeto__titulo {
+    font-size: 35px;
+  }
+
+  .projeto__titulo:hover {
+    color: var(--cinza);
+  }
+
+  .projeto__img {
+    height: 100%;
+  }
+
+  .projeto__descricao {
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .projetos {
+    grid-template-columns: auto auto auto;
+  }
 }
