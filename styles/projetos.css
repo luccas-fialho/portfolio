@@ -6,6 +6,10 @@
   padding: 0;
 }
 
+.container-projetos > hr {
+  width: 250px;
+}
+
 .projetos {
   padding: 1em;
 }
@@ -16,8 +20,7 @@
   justify-content: center;
   align-items: center;
   margin: 0 1em 1em 1em;
-  padding: 1em;
-  border: 2px solid white;
+  padding: 2em;
   background: #56155f;
   border-radius: 10px;
 }
@@ -29,9 +32,9 @@
 }
 
 .projeto__img {
-  padding-bottom: 2em;
+  padding-bottom: 1em;
   width: 100%;
-  border-radius: 10px;
+  border-radius: 2px;
 }
 
 .projeto__descricao {

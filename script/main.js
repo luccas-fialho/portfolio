@@ -3,9 +3,6 @@ const campoNomeTitulo = document.querySelector('.nome')
 const campoCargo = document.getElementById('cargo')
 
 const nome = '<Luccas/>';
-const nomeTitulo = 'Luccas Fialho'
-const nomeCargo = 'FrontEnd Developer'
-
 
 function efeitoDigitacao(nome, campo, tempo) {
   let charAtual = '';
@@ -17,5 +14,3 @@ function efeitoDigitacao(nome, campo, tempo) {
 }
 
 efeitoDigitacao(nome, campoNomeNav, 400);
-efeitoDigitacao(nomeTitulo, campoNomeTitulo, 200);
-efeitoDigitacao(nomeCargo, campoCargo, 100)
