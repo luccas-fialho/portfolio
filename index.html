@@ -1,190 +1,278 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Luccas Fialho - Portfolio</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./styles/reset.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-  <link rel="stylesheet" href="./styles/style.css">
-  <title>Luccas Fialho - Portfolio</title>
-</head>
+  <body>
+    <header class="cabecalho">
+      <p id="nome"></p>
+      <nav class="cabecalho__links">
+        <a href="https://www.linkedin.com/in/luccas-fialho/"
+          ><i class="devicon-linkedin-plain"></i
+        ></a>
+        <a href="https://github.com/luccas-fialho"
+          ><i class="devicon-github-original"></i
+        ></a>
+      </nav>
+    </header>
+    <main>
+      <section class="box-apresentacao">
+        <section class="container">
+          <div class="card">
+            <div class="flip">
+              <div class="front-card">
+                <img src="./img/8bitpix.png" alt="" />
+              </div>
+              <div class="back-card">
+                <img src="./img/foto_eu.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="container-nome">
+          <h1 class="nome">Luccas Fialho</h1>
+          <p id="cargo">
+            Aspirante a Desenvolvedor Frontend Júnior com paixão por criar
+            experiências web interativas e fáceis de usar.
+          </p>
+        </section>
+      </section>
+      <section class="container-sobre-mim">
+        <p class="titulo">Sobre mim</p>
+        <p class="sobre-mim">
+          Olá! Meu nome é Luccas, tenho 24 anos e estou à procura de uma
+          oportunidade no meio dev. Atualmente estudando framework React.
+          Comprometido com o aprendizado e crescimento contínuos. Sempre fui
+          fascinado por tecnologia e sempre tive curiosidade de buscar e
+          entender como as coisas funcionam, tenho muita vontade de aprender e
+          evoluir, tanto profissionalmente quanto como pessoa.
+        </p>
+      </section>
+      <section class="container-projetos">
+        <p class="titulo">Projetos</p>
+        <hr />
+        <div class="projetos">
+          <div class="projeto">
+            <a
+              href="https://reactgram-steel.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <p class="projeto__titulo">Reactgram</p>
+            </a>
 
-<body>
-  <header class="cabecalho">
-    <p id="nome"></p>
-    <nav class="cabecalho__links">
-      <a href="https://www.linkedin.com/in/luccas-fialho/"><i class="devicon-linkedin-plain"></i></i></a>
-      <a href="https://github.com/luccas-fialho"><i class="devicon-github-original"></i></a>
-    </nav>
-  </header>
-  <main>
-    <section class="box-apresentacao">
-      <section class="container">
-        <div class="card">
-          <div class="flip">
-            <div class="front-card">
-              <img src="./img/8bitpix.png" alt="">
-            </div>
-            <div class="back-card">
-              <img src="./img/foto_eu.jpg" alt="">
-            </div>
+            <img src="./img/reactgram.png" alt="" class="projeto__img" />
+            <p class="projeto__descricao">
+              Desenvolvi o Reactgram, uma aplicação fullstack inspirada no
+              Instagram, utilizando a stack MERN (MongoDB, Express.js, React e
+              Node.js). O projeto conta com autenticação de usuários, upload de
+              fotos, curtidas, comentários, integrando frontend e backend de
+              forma eficiente.
+            </p>
+
+            <a
+              class="projeto__repo"
+              href="https://github.com/luccas-fialho/reactgram"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Repositório</a
+            >
+
+            <p class="projeto__tecnologias">
+              <i class="devicon-react-original-wordmark colored"></i>
+              <i class="devicon-html5-plain-wordmark colored"></i>
+              <i class="devicon-css3-plain-wordmark colored"></i>
+              <i class="devicon-javascript-plain colored"></i>
+            </p>
+          </div>
+          <div class="projeto">
+            <a
+              href="https://react-todo-app-vert-omega.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <p class="projeto__titulo">React To-do App</p>
+            </a>
+
+            <img src="./img/todo-app.png" alt="" class="projeto__img" />
+            <p class="projeto__descricao">
+              Desenvolvi uma app para registro de tarefas diárias em React, para
+              o desenvolvimento das minhas habilidades com hooks e armazenamento
+              de dados com localstorage.
+            </p>
+
+            <a
+              class="projeto__repo"
+              href="https://github.com/luccas-fialho/react-todo-app"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Repositório</a
+            >
+
+            <p class="projeto__tecnologias">
+              <i class="devicon-react-original-wordmark colored"></i>
+              <i class="devicon-html5-plain-wordmark colored"></i>
+              <i class="devicon-css3-plain-wordmark colored"></i>
+              <i class="devicon-javascript-plain colored"></i>
+            </p>
+          </div>
+          <div class="projeto">
+            <a
+              href="https://age-calculator-one-lemon.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <p class="projeto__titulo">Age Calculator App</p>
+            </a>
+
+            <img src="./img/age_calculator.jpg" alt="" class="projeto__img" />
+            <p class="projeto__descricao">
+              Projeto feito para aprofundar os conhecimentos em JavaScript como
+              manipulação de DOM e interação com o usuário através de forms e
+              validação dos mesmos.
+            </p>
+
+            <a
+              class="projeto__repo"
+              href="https://github.com/luccas-fialho/age-calculator"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Repositório</a
+            >
+
+            <p class="projeto__tecnologias">
+              <i class="devicon-html5-plain-wordmark colored"></i>
+              <i class="devicon-css3-plain-wordmark colored"></i>
+              <i class="devicon-javascript-plain colored"></i>
+            </p>
+          </div>
+
+          <div class="projeto">
+            <a
+              href="https://angular-psn-clone.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <p class="projeto__titulo">Angular PSN Clone</p>
+            </a>
+
+            <img
+              src="https://raw.githubusercontent.com/luccas-fialho/angular-psn-clone/main/src/assets/project.png"
+              alt=""
+              class="projeto__img"
+            />
+            <p class="projeto__descricao">
+              Projeto de um clone do design da PSN Store para aprimorar os
+              conhecimentos em Angular com TypeScript, como estruturação de
+              projeto e componentização.
+            </p>
+
+            <a
+              class="projeto__repo"
+              href="https://github.com/luccas-fialho/angular-psn-clone"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Repositório</a
+            >
+
+            <p class="projeto__tecnologias">
+              <i class="devicon-angularjs-plain colored"></i>
+              <i class="devicon-typescript-plain colored"></i>
+              <i class="devicon-html5-plain-wordmark colored"></i>
+              <i class="devicon-css3-plain-wordmark colored"></i>
+            </p>
+          </div>
+
+          <div class="projeto">
+            <a
+              href="https://angular-blog-psi.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <p class="projeto__titulo">C-137 Blog</p>
+            </a>
+
+            <img src="./img/c137-blog.png" alt="" class="projeto__img" />
+            <p class="projeto__descricao">
+              Projeto de um blog com Angular e TypeScript onde aprendi muito
+              sobre o pensamento angular, componentização e estrutuação do
+              projeto assim como orientação a objeto com typescript.
+            </p>
+
+            <a
+              class="projeto__repo"
+              href="https://github.com/luccas-fialho/angular-blog"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Repositório</a
+            >
+
+            <p class="projeto__tecnologias">
+              <i class="devicon-angularjs-plain colored"></i>
+              <i class="devicon-typescript-plain colored"></i>
+              <i class="devicon-html5-plain-wordmark colored"></i>
+              <i class="devicon-css3-plain-wordmark colored"></i>
+            </p>
+          </div>
+
+          <div class="projeto">
+            <a
+              href="https://jogo-numero-secreto-mu-one.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <p class="projeto__titulo">Número Secreto</p>
+            </a>
+
+            <img src="./img/projeto_1.png" alt="" class="projeto__img" />
+            <p class="projeto__descricao">
+              Projeto feito para aprofundar os conhecimentos em JavaScript como
+              manipulação de DOM e interação com o usuário, utilizando uma API
+              de captação de som.
+            </p>
+
+            <a
+              class="projeto__repo"
+              href="https://github.com/luccas-fialho/jogo-numero-secreto"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Repositório</a
+            >
+
+            <p class="projeto__tecnologias">
+              <i class="devicon-html5-plain-wordmark colored"></i>
+              <i class="devicon-css3-plain-wordmark colored"></i>
+              <i class="devicon-javascript-plain colored"></i>
+            </p>
           </div>
         </div>
       </section>
-      <section class="container-nome">
-        <h1 class="nome">Luccas Fialho</h1>
-        <p id="cargo">Aspirante a Desenvolvedor Frontend Júnior com paixão por criar experiências web interativas e fáceis de usar.</p>
+      <section class="container-tecnologias">
+        <p class="titulo">Conhecimentos</p>
+        <div class="hardskills__icons">
+          <i class="devicon-react-original-wordmark colored"></i>
+          <i class="devicon-angularjs-plain colored"></i>
+          <i class="devicon-typescript-plain colored"></i>
+          <i class="devicon-html5-plain colored"></i>
+          <i class="devicon-css3-plain colored"></i>
+          <i class="devicon-javascript-plain colored"></i>
+          <i class="devicon-github-original"></i>
+          <i class="devicon-git-plain colored"></i>
+          <i class="devicon-c-plain colored"></i>
+        </div>
       </section>
-    </section>
-    <section class="container-sobre-mim">
-      <p class="titulo">Sobre mim</p>
-      <p class="sobre-mim">
-        Olá! Meu nome é Luccas, tenho 23 anos e estou à procura da minha primeira oportunidade no meio dev. Atualmente
-        estudando framework React. Comprometido com o aprendizado e crescimento contínuos. Sempre fui fascinado por tecnologia e sempre tive curiosidade de buscar e entender como as coisas funcionam, tenho muita vontade de aprender e evoluir, tanto profissionalmente
-        quanto como pessoa.
-      </p>
-    </section>
-    <section class="container-projetos">
-      <p class="titulo">Projetos</p>
-      <hr>
-      <div class="projetos">
-
-        <div class="projeto">
-          <a href="https://age-calculator-one-lemon.vercel.app">
-            <p class="projeto__titulo">Age Calculator App</p>
-          </a>
-
-          <img src="./img/age_calculator.jpg" alt="" class="projeto__img">
-          <p class="projeto__descricao">
-            Projeto feito para aprofundar os conhecimentos em JavaScript como manipulação de DOM e interação com o
-            usuário através de forms e validação dos mesmos.
-          </p>
-
-          <a class="projeto__repo" href="https://github.com/luccas-fialho/age-calculator">Repositório</a>
-
-          <p class="projeto__tecnologias">
-            <i class="devicon-html5-plain-wordmark colored"></i>
-            <i class="devicon-css3-plain-wordmark colored"></i>
-            <i class="devicon-javascript-plain colored"></i>
-          </p>
-        </div>
-
-        <div class="projeto">
-          <a href="https://angular-psn-clone.vercel.app">
-            <p class="projeto__titulo">Angular PSN Clone</p>
-          </a>
-
-          <img src="https://raw.githubusercontent.com/luccas-fialho/angular-psn-clone/main/src/assets/project.png" alt="" class="projeto__img">
-          <p class="projeto__descricao">
-            Projeto de um clone do design da PSN Store para aprimorar os conhecimentos em Angular com TypeScript, como estruturação de projeto e componentização.
-          </p>
-
-          <a class="projeto__repo" href="https://github.com/luccas-fialho/angular-psn-clone">Repositório</a>
-
-          <p class="projeto__tecnologias">
-            <i class="devicon-angularjs-plain colored"></i>
-            <i class="devicon-typescript-plain colored"></i>
-            <i class="devicon-html5-plain-wordmark colored"></i>
-            <i class="devicon-css3-plain-wordmark colored"></i>
-          </p>
-        </div>
-
-        <div class="projeto">
-          <a href="https://angular-blog-psi.vercel.app">
-            <p class="projeto__titulo">C-137 Blog</p>
-          </a>
-
-          <img src="./img/c137-blog.png" alt="" class="projeto__img">
-          <p class="projeto__descricao">
-            Projeto de um blog com Angular e TypeScript onde aprendi muito sobre o pensamento angular, componentização e estrutuação do projeto assim como orientação a objeto com typescript.
-          </p>
-
-          <a class="projeto__repo" href="https://github.com/luccas-fialho/angular-blog">Repositório</a>
-
-          <p class="projeto__tecnologias">
-            <i class="devicon-angularjs-plain colored"></i>
-            <i class="devicon-typescript-plain colored"></i>
-            <i class="devicon-html5-plain-wordmark colored"></i>
-            <i class="devicon-css3-plain-wordmark colored"></i>
-          </p>
-        </div>
-
-        <div class="projeto">
-          <a href="https://jogo-numero-secreto-mu-one.vercel.app/">
-            <p class="projeto__titulo">Número Secreto</p>
-          </a>
-
-          <img src="./img/projeto_1.png" alt="" class="projeto__img">
-          <p class="projeto__descricao">
-            Projeto feito para aprofundar os conhecimentos em JavaScript como manipulação de DOM e interação com o
-            usuário, utilizando uma API de captação de som.
-          </p>
-
-          <a class="projeto__repo" href="https://github.com/luccas-fialho/jogo-numero-secreto">Repositório</a>
-
-          <p class="projeto__tecnologias">
-            <i class="devicon-html5-plain-wordmark colored"></i>
-            <i class="devicon-css3-plain-wordmark colored"></i>
-            <i class="devicon-javascript-plain colored"></i>
-          </p>
-        </div>
-
-        <div class="projeto">
-          <a href="https://robotron2000-eight-blue.vercel.app/">
-            <p class="projeto__titulo">Robotron 2000</p>
-          </a>
-          <img src="./img/projeto_2.png" alt="" class="projeto__img">
-          <p class="projeto__descricao">
-            Também feito para aprofundar os conhecimentos em JavaScript, manipulação de DOM, eventos de clique, inserção
-            de elementos, data attributes.
-          </p>
-          <a class="projeto__repo" href="https://github.com/luccas-fialho/robotron2000">Repositório</a>
-          <p class="projeto__tecnologias">
-            <i class="devicon-html5-plain-wordmark colored"></i>
-            <i class="devicon-css3-plain-wordmark colored"></i>
-            <i class="devicon-javascript-plain colored"></i>
-          </p>
-        </div>
-
-        <div class="projeto">
-          <a href="http://">
-            <p class="projeto__titulo">AluraPlay</p>
-          </a>
-          <img
-            src="https://camo.githubusercontent.com/265a1c9f8574dcf63c1a9de7c86d5d414a9ceec5c424c43ba21aa556c2a38c03/68747470733a2f2f696d6775722e636f6d2f61796d784573682e706e67"
-            alt="" class="projeto__img">
-          <p class="projeto__descricao">
-            Projeto onde além da manipulação de DOM, aprendi conceitos como o de mockar dados para desenvolvimento de
-            uma interface Front End através do JSON Server.
-          </p>
-          <a class="projeto__repo" href="https://github.com/luccas-fialho/alura-play">Repositório</a>
-          <p class="projeto__tecnologias">
-            <i class="devicon-html5-plain-wordmark colored"></i>
-            <i class="devicon-css3-plain-wordmark colored"></i>
-            <i class="devicon-javascript-plain colored"></i>
-          </p>
-        </div>
-
-      </div>
-    </section>
-    <section class="container-tecnologias">
-      <p class="titulo">Conhecimentos</p>
-      <div class="hardskills__icons">
-        <i class="devicon-angularjs-plain colored"></i>
-        <i class="devicon-typescript-plain colored"></i>
-        <i class="devicon-html5-plain colored"></i>
-        <i class="devicon-css3-plain colored"></i>
-        <i class="devicon-javascript-plain colored"></i>
-        <i class="devicon-github-original"></i>
-        <i class="devicon-git-plain colored"></i>
-        <i class="devicon-c-plain colored"></i>
-      </div>
-    </section>
-  </main>
-  <footer>2023 © by Luccas Fialho dos Santos</footer>
-  <script src="./script/main.js"></script>
-</body>
-
+    </main>
+    <footer>2023 © by Luccas Fialho dos Santos</footer>
+    <script src="./script/main.js"></script>
+  </body>
 </html>
